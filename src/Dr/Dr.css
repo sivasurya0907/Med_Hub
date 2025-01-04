@@ -1,0 +1,46 @@
+.profile-container1 {
+    max-width: 800px;
+    margin: 50px auto;
+    background-image: linear-gradient(rgba(255, 255, 255, 0.75),#f1f5f7);
+    padding: 20px;
+    width:430px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    /* height: 40vh; */
+    /* background-color: aqua; */
+
+  }
+  
+  .doctor-image1 {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    margin-right: 20px;
+    
+  }
+  
+  .profile-details1 {
+    flex: 1;
+  }
+  
+  .h1Dr1 {
+    color: #333;
+  }
+  
+  .pDr1 {
+    color: #555;
+    margin-bottom: 8px;
+  }
+
+.column {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between; 
+    align-items: flex-start; 
+    background-image: linear-gradient(rgba(255, 255, 255, 0.75),#f1f5f7);
+  }
+  
+  

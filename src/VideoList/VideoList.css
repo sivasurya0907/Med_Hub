@@ -1,0 +1,68 @@
+.exercise-container {
+    display: flex;
+    flex-direction: column;
+    align-items: right;
+  }
+  
+  .exercise {
+    margin-bottom: 20px;
+    margin-left: 20px;
+    text-align: center;
+  
+  }
+  .ex {
+    margin-bottom: 20px;
+    margin-left: 20px;
+    text-align: center;
+    background-color: black;
+    color: white;
+     height: 60px;
+     border-radius: 15px;
+  }
+  
+  .exercise h1 {
+    font-size: 24px; /* Adjust the font size as needed */
+    background: #2193b0;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #6dd5ed, #2193b0);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #6dd5ed, #2193b0); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */ /* Add blue background color */
+    color: white; /* Set text color to white for better visibility */
+    padding: 10px; /* Add padding to the heading */
+    border-radius: 10px;
+  }
+  
+  .steps {
+    margin-top: 20px;
+    text-align: left; /* Align the steps text to the left */
+    font-size: 30px;
+  }
+  
+  .steps h1 {
+    font-size: 24px; /* Adjust the font size as needed */
+    background-color: rgb(1, 7, 11); /* Add blue background color */
+    color: white; /* Set text color to white for better visibility */
+    padding-left: 30px; /* Add padding to the heading */
+    width: 120px;
+    border-radius: 10px;
+  }
+  
+  .steps ol {
+    padding-left: 20px; /* Add some indentation for the steps */
+  }
+  .v{
+    padding-left: 30px;;
+  }
+  .b1 {
+    background-color: #3A833A;
+    width: 150px;
+    height: 40px;
+    align-items: center;
+    color: antiquewhite;
+    border-radius: 5px;
+    border: none;
+    padding: 13px;
+    transition: background-color 0.3s; /* Add transition for smooth hover effect */
+  }
+  
+  .b1:hover {
+    background-color: #2c6f2c; /* Change background color on hover */
+  }

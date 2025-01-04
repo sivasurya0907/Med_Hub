@@ -1,0 +1,36 @@
+.container-imgKC{
+    width: 100%;
+    height: 70vh;
+    position: relative;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-image: linear-gradient(rgba(255, 255, 255, 0.75),#f1f5f7),url("https://raisingchildren.net.au/__data/assets/image/0028/56278/young-childrens-health-what-to-expect-wide.jpg");
+}
+  
+    
+
+/* .imgKC{
+     padding-top: 100px;
+     padding-left: 800px;
+} */
+
+.Main-textAC{
+    position: absolute;
+    top: 5%;
+   left:0%;
+    width: 70%;
+    height: 40vh;
+    background:transparent;
+    text-align: center;
+    margin-left: 270px;
+    /* border-radius: 5px; */
+    /* padding: 0px 20px;*/
+    margin-top:150px;
+   
+}
+/* .h1KC
+{
+   
+    font-size:40px;
+    text-align: center;
+} */

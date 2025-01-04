@@ -1,0 +1,113 @@
+
+   */
+   .App {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+  }
+  
+  .controls,.nutrients,.meals{
+    margin: 2rem 0 1rem 0;
+  }
+  
+  .controls {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+  }
+  
+  .inputMe {
+    text-align: center;
+    padding: 0.5rem;
+    margin-bottom: 1rem;
+  }
+  
+  .buttonMe {
+    width: 100%;
+    padding: 0.5rem 1rem;
+    background: #2193b0;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #6dd5ed, #2193b0);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #6dd5ed, #2193b0); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    color: #f3f3f3;
+    border: none;
+    font-family: "Roboto", sans-serif;
+    font-size: 1rem;
+  }
+  
+  .buttonMe:hover {
+    background-color: hsl(205, 98%, 64%);
+    cursor: pointer;
+  }
+  
+  .mainMe {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .h1Me {
+    text-align: center;
+    margin-bottom: 2rem;
+  }
+  
+  .nutrients .ulM {
+    display: flex;
+    width: 35rem;
+    justify-content: space-evenly;
+  }
+  
+  .meals {
+    display: flex;
+  }
+  
+  .imgMe {
+    width: 100%;
+    margin-bottom: 1rem;
+  }
+  
+  .articleMe {
+    display: flex;
+    flex-direction: column;
+    padding: 2rem;
+    margin: 0 1rem;
+    max-width: 300px;
+    box-shadow: 0 4px 8px 2px rgba(77, 77, 77, 0.15);
+  }
+  
+  .ulM {
+    list-style: none;
+  }
+  
+  .instructions {
+    font-size: 0.9rem;
+    margin-bottom: 1rem;
+  }
+  
+  .aMe {
+    text-decoration: none;
+    background: #2193b0;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #6dd5ed, #2193b0);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #6dd5ed, #2193b0); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    color: #f3f3f3;
+    width: fit-content;
+    padding: 0.5rem 1rem;
+  }
+  
+  .aMe:hover {
+    background-color: #90f8ff;
+    cursor: pointer;
+  }
+  
+  @media only screen and (max-width: 1024px) {
+    .meals {
+      flex-direction: column;
+      align-items: center;
+    }
+  
+    .nutrients .ulM {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      width: 100%;
+    }
+  }

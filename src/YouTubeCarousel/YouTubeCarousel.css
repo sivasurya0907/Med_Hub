@@ -1,0 +1,42 @@
+.youtube-carousel {
+    position: relative;
+    max-width: 640px;
+    margin: auto;
+    
+  }
+  .bodyYC
+  {
+   background-color: #ffffff;
+  }
+  .youtube-player {
+    position: relative;
+    width: 100%;
+    padding-bottom: 56.25%; 
+  }
+  
+  .youtube-player iframe {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+  }
+  
+  .carousel-controls {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 10px;
+  }
+  
+  .carousel-controls .buttonYC {
+    font-size: 20px;
+    cursor: pointer;
+    padding: 5px 10px;
+    border: none;
+    background-color: #18abdc;
+    color: #fafafa;
+    border-radius: 40%;
+  }
+  
+  .carousel-controls .buttonYC:hover {
+    background-color: #2980b9;
+  }
+  

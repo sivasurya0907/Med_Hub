@@ -1,0 +1,33 @@
+.feature-carousel {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    max-width: 640px;
+    margin: auto;
+  }
+  
+  .feature {
+    text-align: center;
+    width: 60%;
+  }
+  
+  .carousel-button {
+    font-size: 24px;
+    cursor: pointer;
+    padding: 10px;
+    border: none;
+    background-color: #ffffff;
+    color: #000000;
+    border-radius: 50%;
+  }
+  
+  .carousel-button:hover {
+    background-color: #2980b9;
+  }
+
+  .bodyFC
+  {
+    background: #2193b0; 
+    background: -webkit-linear-gradient(to right, #6dd5ed, #2193b0); 
+    background: linear-gradient(to right, #6dd5ed, #2193b0); 
+  }

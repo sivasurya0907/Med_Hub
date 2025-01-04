@@ -1,0 +1,67 @@
+/* DoctorProfile.css */
+/* .cc
+{
+  background-image: linear-gradient(rgba(255, 255, 255, 0.75),#f1f5f7);
+    background-color: aqua;
+} */
+.profile-container13 {
+    max-width: 800px;
+    margin: 50px auto;
+    background-image: linear-gradient(rgba(255, 255, 255, 0.75),#f1f5f7);
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    display: flex;
+    align-items: center;
+    height: 40dvh;
+  }
+  
+  .doctor-image13 {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    margin-right: 20px;
+  }
+  
+  .profile-details13 {
+    flex: 1;
+  }
+  
+  .h1Dr {
+    color: #333;
+  }
+  
+  .pDr {
+    color: #555;
+    margin-bottom: 8px;
+  }
+
+.areah{
+  font-size: 29px;
+  margin-left: 350px;
+  font-weight: 500;
+}
+.rateh{
+  font-size: 29px;
+  margin-left: 590px;
+  font-weight: 600;
+}
+.areapoint
+{
+  margin-left: 350px;
+}
+.wrate
+{
+  background: #2193b0;  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to right, #6dd5ed, #2193b0);  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, #6dd5ed, #2193b0); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+  
+/* 
+.DrC{
+  margin-left: 700px;
+ margin-right: 200px;
+ padding-top: 70px;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+} */

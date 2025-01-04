@@ -1,0 +1,72 @@
+.imgKc{
+    border-radius:100%;
+    width:200px;
+}
+.bodyKc{
+    display: flex;
+    gap:190px;
+}
+.bodyKct{
+    display: flex;
+    gap:100px;
+}
+.KCbox
+{
+    background: #2193b0; 
+    background: -webkit-linear-gradient(to right, #6dd5ed, #2193b0); 
+    background: linear-gradient(to right, #6dd5ed, #2193b0); 
+}
+.KCimg1 {
+    width: 500px;
+    height: 500px;
+ 
+}
+
+.side {
+    display: flex;
+    gap: 200px; 
+}
+
+.left {
+    flex: 1;
+}
+
+.right {
+    flex: 2;
+}
+.side {
+    display: flex;
+    justify-content: space-between;
+   background: linear-gradient(rgba(255, 255, 255, 0.75),#f1f5f7);
+}
+
+.right-content {
+    flex: 1; /* Take up remaining space */
+    text-align: center;
+    margin-left: 150px;
+    margin-top: 130px;
+}
+
+.left-content {
+    flex: 1; /* Take up remaining space */
+}
+
+.side1 {
+    display: flex;
+    justify-content: space-between;
+    background: linear-gradient(rgba(255, 255, 255, 0.75),#f1f5f7);
+  }
+  
+  .left-content1 {
+    flex: 1; /* Take up remaining space */
+    margin-left:50px;
+  }
+  
+  .right-content1 {
+    flex: 1; /* Take up remaining space */
+    text-align: center;
+     margin-top:80px;
+     margin-right: 80px;
+  }
+  
+  

@@ -1,0 +1,51 @@
+.header{
+    display: flex;
+    justify-content: space-between;
+  }
+    
+    .navigation {
+      margin-left: auto; /* This pushes the navigation to the right */
+      background: #2193b0;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #6dd5ed, #2193b0);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #6dd5ed, #2193b0); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+      display: flex; /* Align items horizontally */
+      justify-content: center;
+      align-items: center; /* Align items from the middle to the right */
+    }
+    .bar{
+        display: flex;
+  align-items: center;
+      
+      font-family:Georgia, 'Times New Roman', Times, serif;
+      font-weight:700;
+    }
+    .text{
+        margin-left: 600px;
+    }
+    .logo {
+       margin-right: 100px;
+    
+    }
+    
+    .navigation ul {
+      list-style-type: none;
+      padding: 0;
+      display: flex; 
+      align-items: center;
+    }
+    
+   
+    .navigation ul li a {
+      display: inline-block;
+      padding: 10px 20px;
+      color: #000000;
+      text-decoration: none;
+    }
+    .navigation ul li a:hover {
+      background-color: rgba(0, 0, 0, 0.105); 
+    }
+     .brandName{
+          font-size: 100px;
+          font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, cursive;
+          font-weight: 900;
+       }

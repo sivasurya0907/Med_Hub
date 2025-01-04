@@ -1,0 +1,213 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700&display=swap');
+
+.jolly{
+  height: 100vh;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: #ffffff;
+  position: relative;
+}
+
+.containervv{
+  z-index: 12;
+
+  width: 70vw;
+  background: #fff;
+  border-radius: 12px;
+  margin: 0 20px;
+  box-shadow: 0 5px 10px rgba(0, 0, 0, 0.15);
+  height: 60dvh;
+ 
+}
+.containervv .company{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 25px 20px;
+  padding-top: 90px;
+}
+.company .image-box{
+  max-width: 55%;
+}
+.company .image-box .imgC{
+  width: 100%;
+}
+.company .topic{
+  font-size: 22px;
+  font-weight: 500;
+  color: rgb(32, 128, 238);
+}
+.company .formC{
+  width: 40%;
+  margin-right: 30px;
+}
+.company .input-box{
+  height: 50px;
+  width: 100%;
+  margin: 16px 0;
+  position: relative;
+}
+.company .input-box .inputC{
+  height: 100%;
+  width: 100%;
+  border-radius: 6px;
+  font-size: 16px;
+  outline: none;
+  padding-left: 16px;
+  background: #ffffff;
+  border: 2px solid transparent;
+  transition: all 0.3s ease;
+}
+.company .input-box .inputC:focus,
+.company .input-box .inputC:valid{
+  border-color: rgb(18, 104, 202);
+  background-color: #fff;
+}
+.company .input-box .labelC{
+  position: absolute;
+  left: 18px;
+  top: 50%;
+  color: #636c72;
+  font-size: 15px;
+  pointer-events: none;
+  transform: translateY(-50%);
+  transition: all 0.3s ease;
+}
+.company .input-box .inputC:focus ~ .labelC,
+.company .input-box .inputC:valid ~ .labelC{
+  top: 0;
+  left: 12px;
+  display: 14px;
+  color: rgb(32, 128, 238);
+  background: #ffffff;
+  transition: all 0.3s ease;
+}
+.company .message-box{
+  min-height: 100px;
+ 
+  position: relative;
+}
+
+.company .message-box .labelC{
+  position: absolute;
+  font-size: 16px;
+  color: #636c72;
+  left: 18px;
+  top: 6px;
+  pointer-events: none;
+  transform: translateY(-50%);
+  transition: all 0.3s ease;
+}
+.company .message-box textarea:focus ~ .labelC{
+  left: 12px;
+  top: -10px;
+  display: 14px;
+  color: rgb(32, 128, 238);
+  font-size: 14px;
+  background: #fff;
+}
+
+@media (max-width:1000px) {
+  .company .image-box{
+    max-width: 70%;
+  }
+  .company{
+    padding: 10px 0;
+  }
+}
+@media (max-width:900px) {
+  .company .image-box{
+    display: none;
+  }
+  .company form{
+    width: 100%;
+    margin-left: 30px;
+  }
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500;600;700&display=swap');
+
+
+.card-list {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+    max-width: 1250px;
+    margin-bottom: 130px ;
+    margin-left: 120px;
+    gap: 20px;
+    
+}
+.imgcon
+{
+ margin-left: 20px;
+}
+.con
+{
+  height:60dvh;
+  background: #2193b0;  
+  background: -webkit-linear-gradient(to right, #6dd5ed, #2193b0);  
+  background: linear-gradient(to right, #6dd5ed, #2193b0); 
+}
+.card-list .card-item {
+    background: #fff;
+    padding: 26px;
+    border-radius: 8px;
+    box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.04);
+    list-style: none;
+    cursor: pointer;
+    text-decoration: none;
+    border: 2px solid transparent;
+    transition: border 0.5s ease;
+}
+.card-list .card-item:hover {
+    border: 2px solid #000;
+}
+.card-list .card-item img {
+    width: 100%;
+    aspect-ratio: 16/9;
+    border-radius: 8px;
+    object-fit: cover;
+}
+.card-list span {
+    display: inline-block;
+    background: #F7DFF5;
+    margin-top: 32px;
+    padding: 8px 15px;
+    font-size: 0.75rem;
+    border-radius: 50px;
+    font-weight: 600;
+}
+.card-list .developer {
+    background-color: #F7DFF5; 
+    color: #B22485;
+}   
+.card-list .designer {
+    background-color: #d1e8ff;
+    color: #2968a8;
+}
+
+
+.card-item h3 {
+    color: #000;
+    font-size: 1.438rem;
+    margin-top: 28px;
+    font-weight: 600;
+}
+
+@media (max-width: 1200px) {
+    .card-list .card-item {
+        padding: 15px;
+    }
+}
+@media screen and (max-width: 980px) {
+    .card-list {
+        margin: 0 auto;
+    }
+}
+.pixel{
+  width: 200px;
+  height: 150px;
+  margin-left: 50px;
+}

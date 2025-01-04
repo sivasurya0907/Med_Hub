@@ -1,0 +1,27 @@
+.doctor-avatars {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 20px;
+    height: 40dvh;
+    background-image:linear-gradient((rgba(255, 255, 255, 0.75),#f1f5f7));
+  }
+  .bodyAV{
+    background-image:linear-gradient((rgba(255, 255, 255, 0.75),#f1f5f7));
+  }
+  
+  .doctor-avatar {
+    text-align: center;
+  }
+  
+  .avatar-image {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    object-fit: cover;
+  }
+  
+  .doctor-name {
+    margin-top: 10px;
+    font-weight: bold;
+  }
+  

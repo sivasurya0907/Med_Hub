@@ -1,0 +1,10 @@
+.VP
+{
+   height: 90px;
+   background-image: linear-gradient(rgba(255, 255, 255, 0.75),#f1f5f7);
+   text-align: left;
+   padding-top: 20px;
+   padding-left: 40px;
+   font-size: 30px;
+   font-weight: 700;
+}

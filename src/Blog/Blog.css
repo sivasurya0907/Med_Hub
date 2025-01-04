@@ -1,0 +1,258 @@
+
+
+ 
+.blog-heading {
+
+    text-align: center;
+    font-size: 44px;
+    margin-bottom: 30px;
+    color: #000000;
+  }
+
+  
+  .body12 {
+   
+   
+    font-family: "Open Sans", sans-serif;
+    min-height: 130vh;
+  
+    a {
+      text-decoration: none;
+      color: hsl(218, 75%, 59%);
+    }
+  
+
+  }
+  
+ 
+  :root {
+    font-size: 16px;
+    --card-img-height: 200px;
+  }
+  .card-container1 {
+    width: 100%;
+    height: 100vh;
+    padding-top: 10px;
+    padding-right: 30px;;
+    display: flex;
+    gap: 50px;
+    flex-flow: row wrap;
+    justify-content: center;
+    align-items: center;
+    transition: all 50ms ease-in-out;
+  }
+  
+  .card1 {
+    align-self: flex-start;
+    position: relative;
+    width: 325px;
+    min-width: 275px;
+    margin: 1.25rem 0.75rem;
+    background: white;
+    transition: all 300ms ease-in-out;
+   
+    .card-img1 {
+      visibility: hidden;
+      width: 100%;
+      height: var(--card-img-height);
+      background-repeat: no-repeat;
+      background-position: center center;
+      background-size: cover;
+    }
+  
+    .card-img-hovered {
+      --card-img-hovered-overlay: linear-gradient(
+        to bottom,
+        rgba(0, 0, 0, 0),
+        rgba(0, 0, 0, 0)
+      );
+      transition: all 350ms ease-in-out;
+      background-repeat: no-repeat;
+      background-position: center center;
+      background-size: cover;
+      width: 100%;
+      position: absolute;
+      height: var(--card-img-height);
+      top: 0;
+    }
+  
+    .card-info {
+      position: relative;
+      padding: 0.75rem 1.25rem;
+      transition: all 200ms ease-in-out;
+  
+      .card-about {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 0.75rem 0;
+        transition: all 200ms ease-in-out;
+  
+        .card-tag {
+          width: 60px;
+          max-width: 100px;
+          padding: 0.2rem 0.5rem;
+          font-size: 12px;
+          text-align: center;
+          text-transform: uppercase;
+          letter-spacing: 1px;
+          background: #505f79;
+          color: #fff;
+  
+          &.tag-news {
+            background: #36b37e;
+          }
+  
+          &.tag-deals {
+            background: #ffab00;
+          }
+  
+          &.tag-politics {
+            width: 71px;
+            background: #ff5630;
+          }
+        }
+      }
+  
+      .card-title1 {
+        z-index: 10;
+        font-size: 1.5rem;
+        padding-bottom: 0.75rem;
+        transition: all 350ms ease-in-out;
+      }
+  
+      .card-creator {
+        padding-bottom: 0.75rem;
+        transition: all 250ms ease-in-out;
+      }
+    }
+  
+    &:hover {
+      cursor: pointer;
+      box-shadow: 0px 15px 35px rgba(227, 252, 239, 0.1),
+        0px 5px 15px rgba(0, 0, 0, 0.07);
+      transform: scale(1.025);
+  
+      .card-img-hovered {
+        --card-img-hovered-overlay: linear-gradient(
+          to bottom,
+          rgba(0, 0, 0, 0),
+          rgba(0, 0, 0, 0.65)
+        );
+        height: 450px;
+      }
+  
+      .card-about,
+      .card-creator {
+        opacity: 0;
+      }
+  
+      .card-info {
+        background-color: transparent;
+      }
+  
+      .card-title1 {
+        color: #ebecf0;
+       margin-bottom: -40px;
+        transform: translate(0,40px);
+      }
+    }
+  }
+  
+ 
+  .card-1 {
+    .card-img1,
+    .card-img-hovered {
+      background-image: var(--card-img-hovered-overlay),
+        url(https://max-website20-images.s3.ap-south-1.amazonaws.com/Gallstone_Pancreatitis_ac08d401da.jpg);
+    }
+  }
+  
+  .card-2 {
+    .card-img1,
+    .card-img-hovered {
+      background-image: var(--card-img-hovered-overlay),
+        url(https://www.healthkart.com/connect/wp-content/uploads/2024/01/900-2024-01-31T154231.512.jpg);
+    }
+  }
+  
+  .card-3 {
+    .card-img1,
+    .card-img-hovered {
+      background-image: var(--card-img-hovered-overlay),
+        url(https://www.healthkart.com/connect/wp-content/uploads/2024/02/900-2024-02-01T184808.052.jpg);
+    }
+  }
+  
+  .card-4 {
+    .card-img1,
+    .card-img-hovered {
+      background-image: var(--card-img-hovered-overlay),
+        url(https://www.healthkart.com/connect/wp-content/uploads/2021/04/banner-2021-04-16T134631.006.jpg);
+    }
+  }
+  
+ 
+  .card-11 {
+    .card-img1,
+    .card-img-hovered {
+      background-image: var(--card-img-hovered-overlay),
+        url(https://www.lifespan.io/wp-content/uploads/2020/11/liver.jpg);
+    }
+  }
+  
+  .card-22 {
+    .card-img1,
+    .card-img-hovered {
+      background-image: var(--card-img-hovered-overlay),
+        url(https://i.pinimg.com/736x/aa/b1/86/aab186b934491320cb3e7de2ea298722.jpg);
+    }
+  }
+  
+  .card-33 {
+    .card-img1,
+    .card-img-hovered {
+      background-image: var(--card-img-hovered-overlay),
+        url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS9zHifrdg9-m86g2BDDIauAvhi3adKG6RFPw&usqp=CAU);
+    }
+  }
+  
+  .card-44 {
+    .card-img1,
+    .card-img-hovered {
+      background-image: var(--card-img-hovered-overlay),
+        url(https://d2jx2rerrg6sh3.cloudfront.net/images/news/ImageForNews_705311_16456281445536576.jpg);
+    }
+  }
+  .card-111 {
+    .card-img1,
+    .card-img-hovered {
+      background-image: var(--card-img-hovered-overlay),
+        url(https://www.totalhealthandfitness.com/wp-content/uploads/2023/06/insulin-resistance-diet-scaled.jpg);
+    }
+  }
+  
+  .card-222 {
+    .card-img1,
+    .card-img-hovered {
+      background-image: var(--card-img-hovered-overlay),
+        url(https://www.totalhealthandfitness.com/wp-content/uploads/2023/06/what-is-mindful-eating-scaled.jpg);
+    }
+  }
+  
+  .card-333 {
+    .card-img1,
+    .card-img-hovered {
+      background-image: var(--card-img-hovered-overlay),
+        url(https://www.totalhealthandfitness.com/wp-content/uploads/2023/06/nutrition-and-chronic-disease-scaled.jpg);
+    }
+  }
+  
+  .card-444 {
+    .card-img1,
+    .card-img-hovered {
+      background-image: var(--card-img-hovered-overlay),
+        url(https://www.totalhealthandfitness.com/wp-content/uploads/2023/06/how-to-make-a-habit-stick-scaled.jpg);
+    }
+  }
+  

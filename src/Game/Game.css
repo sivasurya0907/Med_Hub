@@ -1,0 +1,55 @@
+.center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh; /*https://pa1.aminoapps.com/6819/a4f6f8f121cbebe966f2c63d132c3ca9cbd6752a_00.giflinear-gradient(rgba(240, 227, 227, 0.897),rgb(69, 63, 63)), Adjust this value if necessary */
+  background-image:linear-gradient(rgba(255, 255, 255, 0.897),rgb(221, 221, 221)),url('C:\Users\Admin\Desktop\PersonalReact\personal-app\src\Images\Gamebg.png');
+  background-repeat: no-repeat;
+  background-size:cover;
+  /* background-position-x:50.5%;
+  background-position-y: center; */
+  background-position: center center;
+  /* filter: blur(8px); */
+}
+
+/* .formgam
+{
+  
+  border-radius:0.1%;
+  height: 300px;
+  width:600px;
+  top:90px;
+  border-style:solid;
+  border-color: rgb(255, 179, 1);
+} */
+.gabut
+{
+  margin-top:150px;
+  align-items: center;
+}
+
+.attempt
+{
+ 
+ 
+  font-size: medium;
+}
+
+
+.msg {
+  margin-top: 20px; /* Adjust the margin as needed */
+}
+
+.msg{
+  text-align: center;
+}
+.textInputWrapper .textInput{
+    width: 200px;
+}
+  /* Media query for smaller screens */
+  @media (max-width: 768px) {
+    .game-container {
+      width: 100%; /* Full width on smaller screens */
+    }
+  }
+  /* https://cdn.rcimg.net/captain.teemo/6a33fed8/6123c422c2a1b0ce0565e13b8196f01a.gif?width=300&quality=10&blur=20 */

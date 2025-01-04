@@ -1,0 +1,100 @@
+.amsg {
+    position: absolute;
+    background-color: rgb(224, 25, 25);
+    color: white;
+    padding-bottom: 60px;
+    border-radius: 10px;
+    padding-right: 30px;
+    padding-left: 30px;
+    right: 340px;
+    height: 25px;
+  }
+  .ambtn1{
+    background-color: red;
+    border: none;
+    width: 150px;
+    height: 60px;
+    border-radius: 10px;
+    font-size: 19px;
+    color: white;
+    margin-right:200px;
+}
+  .boxam{
+    width: 600px;
+    height: 500px;
+    border: black;
+    border-radius: 10px;
+   margin-left: 550px;
+    
+  }
+  .pam{
+    background-color: rgb(35, 37, 37);
+    border-radius: 10px;
+    width:350px;
+    height: 500px;
+    padding: 15px;
+    margin-top: 30px;
+    margin-right: 200px;
+    color: antiquewhite;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 17px;
+    font-weight: 25px;
+  }
+  
+    .ambtn2{
+      background-color: red;
+      border: none;
+      width: 100px;
+      height: 40px;
+      margin-top: 40px;
+      margin-left: 10px;
+     
+      color: wheat;
+  }
+    .ambtn2:hover{
+      background-color: rgb(210, 9, 9);
+      border: none;
+      
+  }
+  .card-containerAmbu {
+    display: flex;
+    flex-direction: row;
+    margin: 20px;
+    padding-left: 20px;
+    gap:100px;
+   
+  }
+  
+  .imgAmbu
+  {
+    width:100%;
+    height:100%;
+  }
+  
+  .cardAmbu {
+    border: 2px solid #000000;
+    border-radius: 5px;
+    padding: 20px;
+    width: 420px;
+  background-color: white;
+    box-shadow:
+    3.2px 2.5px 2.2px rgba(0, 0, 0, 0.067),
+  7.6px 5.9px 5.3px rgba(0, 0, 0, 0.097),
+  14.3px 11.1px 10px rgba(0, 0, 0, 0.12),
+  25.5px 19.9px 17.9px rgba(0, 0, 0, 0.143),
+  47.6px 37.2px 33.4px rgba(0, 0, 0, 0.173),
+  114px 89px 80px rgba(0, 0, 0, 0.24);
+  }
+
+  .Ambuwhole
+  {
+    height:90dvh;
+    background: #2193b0;  
+    background: -webkit-linear-gradient(to right, #6dd5ed, #2193b0);  
+    background: linear-gradient(to right, #6dd5ed, #2193b0);
+  }
+
+  .orAm
+  {
+    padding-right: 200px;
+  }
